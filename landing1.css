@@ -1,63 +1,65 @@
-/* Reset de estilos para remover margens e preenchimentos padrão do navegador */
+
 body, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Estilo para a barra de navegação */
 header {
-    background-color: #333; /* Cor de fundo da barra de navegação */
-    position: fixed; /* Fixa a barra no topo da página */
-    width: 100%; /* Largura total */
+    background-color: rgb(255, 255, 255); 
+    position: fixed; 
+    width: 100%; 
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Espaçamento interno */
-    z-index: 1000; /* Certifica-se de que a barra de navegação fica em cima de outros elementos */
+    padding: 10px 20px; 
+    z-index: 1000; 
 }
 
-/* Estilo para o logotipo */
+
 .logo img {
-    width: 100px; /* Largura do logotipo */
-    height: auto; /* Altura ajustável para manter a proporção */
+    width: 200px;
+    height: auto; 
 }
 
-/* Estilo para a lista de navegação */
+
 nav ul {
-    list-style-type: none; /* Remove marcadores de lista */
+    list-style-type: none; 
 }
 
 nav ul li {
-    display: inline; /* Exibe os itens de navegação em linha horizontalmente */
-    margin-right: 20px; /* Espaçamento entre os itens de navegação */
+    display: inline; 
+    margin-right: 20px; 
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: #fff; /* Cor do texto dos links */
-    font-weight: bold; /* Deixa o texto em negrito */
+    text-decoration: none; 
+    color: rgb(162, 91, 255);
+    font-weight: bold;
 }
 
-/* Estilo para a seção de conteúdo */
+
 .conteudo {
-    padding: 60px 20px; /* Espaçamento interno da seção de conteúdo */
-    margin-top: 80px; /* Espaço para a barra de navegação fixa */
+    padding: 60px 20px; 
+    margin-top: 80px; 
     text-align: center;
+    background-color:  rgb(162, 91, 255);
 }
 
 .conteudo h1 {
     font-size: 36px; /* Tamanho do título */
     margin-bottom: 20px; /* Espaçamento abaixo do título */
+    
 }
 
 .conteudo p {
     font-size: 18px; /* Tamanho do texto */
     margin-bottom: 30px; /* Espaçamento abaixo do texto */
+
 }
 
-/* Estilo para o botão de contato */
+
 .botao-contato {
     display: inline-block;
     padding: 10px 20px;
@@ -71,4 +73,6 @@ nav ul li a {
 
 .botao-contato:hover {
     background-color: #0056b3; /* Cor de fundo ao passar o mouse sobre o botão */
+
+
 }
