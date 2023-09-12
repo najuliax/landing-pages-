@@ -1,78 +1,42 @@
+/* Centralizar o cabeçalho */
+header {
+    text-align: center;
+}
 
-body, ul, li {
-    margin: 0;
+.menu {
+    list-style: none;
     padding: 0;
 }
 
-header {
-    background-color: rgb(255, 255, 255); 
-    position: fixed; 
-    width: 100%; 
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px; 
-    z-index: 1000; 
+.menu li {
+    display: inline;
+    margin: 0 20px; /* Espaçamento entre os itens do menu */
 }
 
-
-.logo img {
-    width: 200px;
-    height: auto; 
-}
-
-
-nav ul {
-    list-style-type: none; 
-}
-
-nav ul li {
-    display: inline; 
-    margin-right: 20px; 
-}
-
-nav ul li a {
-    text-decoration: none; 
-    color: rgb(162, 91, 255);
-    font-weight: bold;
-}
-
-
+/* Centralizar o conteúdo */
 .conteudo {
-    padding: 60px 20px; 
-    margin-top: 80px; 
     text-align: center;
-    background-color:  rgb(162, 91, 255);
+    margin-top: 20px; /* Espaçamento superior para afastar o conteúdo do cabeçalho */
 }
 
-.conteudo h1 {
-    font-size: 36px; /* Tamanho do título */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-    
-}
-
-.conteudo p {
-    font-size: 18px; /* Tamanho do texto */
-    margin-bottom: 30px; /* Espaçamento abaixo do texto */
-
-}
-
-
+/* Centralizar o botão de contato */
 .botao-contato {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 20px; /* Ajuste o espaçamento conforme necessário */
     background-color: #007bff; /* Cor de fundo do botão */
     color: #fff; /* Cor do texto do botão */
-    text-decoration: none; /* Remove sublinhado */
-    font-weight: bold;
+    text-decoration: none;
     border-radius: 5px; /* Borda arredondada */
-    transition: background-color 0.3s ease; /* Efeito de transição de cor de fundo */
 }
 
-.botao-contato:hover {
-    background-color: #0056b3; /* Cor de fundo ao passar o mouse sobre o botão */
+/* Estilizar o menu */
+.menu li a {
+    text-decoration: none;
+    color: #333; /* Cor do texto dos links do menu */
+    font-weight: bold; /* Negrito nos links do menu */
+    font-size: 16px; /* Tamanho da fonte dos links do menu */
+}
 
-
+.menu li a:hover {
+    color: #007bff; /* Cor do texto dos links do menu ao passar o mouse */
 }
