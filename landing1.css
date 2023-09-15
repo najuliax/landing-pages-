@@ -1,42 +1,103 @@
-/* Centralizar o cabeçalho */
-header {
-    text-align: center;
-}
 
-.menu {
-    list-style: none;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
-.menu li {
-    display: inline;
-    margin: 0 20px; /* Espaçamento entre os itens do menu */
+ 
+header {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Centralizar o conteúdo */
-.conteudo {
+.logo img {
+    width: 200px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(91, 42, 226);
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #070403; 
+}
+
+.card {
+    background-color: #050505f5;
+    padding: 50px;
     text-align: center;
-    margin-top: 20px; /* Espaçamento superior para afastar o conteúdo do cabeçalho */
+    margin-bottom: 150px;
+    margin-top: 1px;
 }
 
-/* Centralizar o botão de contato */
-.botao-contato {
-    display: inline-block;
-    padding: 10px 20px; /* Ajuste o espaçamento conforme necessário */
-    background-color: #007bff; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    text-decoration: none;
-    border-radius: 5px; /* Borda arredondada */
+.titulo{
+    color: rgb(240, 239, 239);
 }
 
-/* Estilizar o menu */
-.menu li a {
-    text-decoration: none;
-    color: #333; /* Cor do texto dos links do menu */
-    font-weight: bold; /* Negrito nos links do menu */
-    font-size: 16px; /* Tamanho da fonte dos links do menu */
+.subtitulo{
+  color: #ffffff;
 }
 
-.menu li a:hover {
-    color: #007bff; /* Cor do texto dos links do menu ao passar o mouse */
+.purple-1{
+    background-color: #000000; 
+    color: white;
+    padding: 40px;
+    text-align: center
+}
+
+.purple-2{
+  background-color: #8A2BE2; 
+    color: white;
+    padding:40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.purple-3{
+  background-color: #070403;
+   color: white;
+    padding:40px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.purple-4{
+  background-color: #8A2BE2;
+   color: white;
+    padding:40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botao-cta{ 
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #8A2BE2;
+  color: aliceblue;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.botao-cta:hover{
+  background-color: #3b1550;
 }
