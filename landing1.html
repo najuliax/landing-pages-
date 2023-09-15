@@ -1,30 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título da Sua Página</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="https://i.imgur.com/TQhLjE9.png" alt="Logo da sua empresa">
+            <img src="https://i.imgur.com/ahWYctp.png" alt="Logo da empresa">
         </div>
         <nav>
-            <ul class="menu">
-                <li><a href="#">Página Inicial</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Áreas Abordadas</a></li>
-                <li><a href="#">Dúvidas</a></li> <!-- Adicionado "Dúvidas" após "Áreas Abordadas" -->
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#duvidas">Dúvidas</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-
-    <section class="conteudo">
-        <h1>Bem-vindo ao Nosso Site</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla justo a metus interdum, sed blandit dolor consequat.</p>
-        <a href="#" class="botao-contato">Contato</a>
+    <section class="card">
+        <h2 class="titulo"> DESENVOLVIMENTO DE SISTEMAS</h2>
+        <div    
+        class="subtitulo">curso técnico </div>
+        <div>
+          <button class="botao-cta">GARANTIR MINHA VAGA </button>
+      
+        </div>
+    </section>
+    <section class="purple-1" id="sobre">
+        <h2>Sobre</h2>
+        <p>Conteúdo da seção Sobre.</p>
+    </section>
+    <section class="purple-2" id="duvidas">
+        <h2>Dúvidas</h2>
+        <p>Conteúdo da seção Dúvidas.</p>
+    </section>
+    <section class="purple-3" id="cursos">
+        <h2>Cursos</h2>
+        <p>Conteúdo da seção Cursos.</p>
+    </section>
+    <section class="purple-4" id="contato">
+        <h2>Contato</h2>
+        <p>Conteúdo da seção Contato.</p>
     </section>
 </body>
 </html>
